@@ -15,13 +15,13 @@ function no() {
 
     if (noCount === 1) {
         document.getElementById("question").innerText =
-            "Sure ka ba boss?";
+            "ulol kupal ka eh?";
     } else if (noCount === 2) {
         document.getElementById("question").innerText =
-            "Pag-isipan mong mabuti 😏";
+            "Wala laki mong kupal 😏";
     } else if (noCount === 3) {
         document.getElementById("question").innerText =
-            "Wala ka nang kawala boss 😈";
+            "Talagang kupal ka talaga 😈";
     } else {
         // LOOP FOREVER
         document.getElementById("question").innerText =
@@ -29,3 +29,4 @@ function no() {
     }
 
 }
+
